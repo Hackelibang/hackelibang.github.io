@@ -1,15 +1,15 @@
-backend: 
+backend:
   name: github
-  name: Hackelibang/hackelibang.github.io
+  repo: Hackelibang/hackelibang.github.io
   branch: main
 
 media_folder: media_folder
 
 collections:
   - name: post
-  label: Post
-  folder: posts
-  create: true
-  fields:
-    - {name: title, label: Title}
-    - {name: body, label: Body, widget: markdown}
+    label: Post
+    folder: posts
+    create: true
+    fields:
+      - {name: title, label: Title}
+      - {name: body, label: Body, widget: markdown}
