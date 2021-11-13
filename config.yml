@@ -1,5 +1,6 @@
-backend: github
-name: hackelibang.github.io
+backend: 
+name: github
+name: Hackelibang/hackelibang.github.io
 
 media_folder: media_folder
 
