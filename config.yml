@@ -1,11 +1,12 @@
 backend: 
-name: github
-name: Hackelibang/hackelibang.github.io
+  name: github
+  name: Hackelibang/hackelibang.github.io
+  branch: main
 
 media_folder: media_folder
 
 collections:
-- name: post
+  - name: post
 label: Post
 folder: posts
 create: true
