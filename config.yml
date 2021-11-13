@@ -1,5 +1,5 @@
-backend:
-name: test-repo
+backend: github
+name: hackelibang.github.io
 
 media_folder: media_folder
 
